@@ -1,0 +1,8 @@
+gdown
+cython
+matplotlib
+numpy
+Pillow
+pycocotools
+torch
+torchvision

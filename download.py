@@ -9,7 +9,7 @@ def download_data():
 
 def download_trained():
     #single file, no extraction
-    #also in model_files folder in this repo
+    #also in model_files folder in this repo (for 60 epochs only)
     gdown.download("https://drive.google.com/uc?id=18q5n_IUcjeOrMf6q2LIX_MvD2ee6bsZm", "drinks-trained-weights.pth", quiet=False)
 
 

@@ -1,0 +1,5 @@
+60 epochs
+link: https://drive.google.com/uc?id=1AdMbVK110IKLG7wJKhga2N2fitV1bVPA
+
+80 epochs
+link: https://drive.google.com/uc?id=1yF7MCj116-hc16xshxBjaJgU9zT_by8C

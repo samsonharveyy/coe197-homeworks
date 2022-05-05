@@ -34,12 +34,15 @@ python3 test.py
 Both training and testing modules are run in Google Colab. From multiple tests, the model is found to perform considerably good as exhibited by accuracy
 and precision values.
 
+## Demo
+A file called video_demo.ipynb is implemented using Google Colab and automatically downloads the pretrained weights to feed to the model for evaluation. A video is taken as an input which is spliced into frames to do the object detection, and converts it back to a .mp4 file. A sample video called video_demo.py is available in this repository for reference.
+
 ## Other References
 Some references I found useful when building the model:
 * [Deep Learning Helper - Supervised Learning: Object Detection](https://github.com/izzajalandoni/Deep-Learning-Helper/blob/main/SupervisedLearning/object_detection_mmdetection.ipynb)
 * [Deep Learning Experiments - MLP](https://github.com/roatienza/Deep-Learning-Experiments/tree/master/versions/2022/datasets/python)
 * [Torchvision](https://github.com/pytorch/vision)
-
+* [OpenCV in Google Colab](https://github.com/oyyarko/opencv_arko/blob/master/OpenColab.ipynb)
 
 
 

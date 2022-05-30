@@ -9,8 +9,7 @@ from torchvision.transforms import ToTensor
 from torchaudio.datasets import SPEECHCOMMANDS
 from torchaudio.datasets.speechcommands import load_speechcommands_item
 
-#datasets reference:
-#https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws_demo.ipynb
+#reference: https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws_demo.ipynb
 class SilenceDataset(SPEECHCOMMANDS):
     def __init__(self, root):
         super(SilenceDataset, self).__init__(root, subset='training')

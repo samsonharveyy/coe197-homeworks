@@ -5,8 +5,7 @@ from torch.optim.lr_scheduler import CosineAnnealingLR
 from torchmetrics.functional import accuracy
 from torch import nn
 
-#transformer model reference:
-#https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws_demo.ipynb
+#reference: https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws_demo.ipynb
 class Attention(nn.Module):
     def __init__(self, dim, num_heads=8, qkv_bias=False):
         super().__init__()

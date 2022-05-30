@@ -6,7 +6,6 @@ import librosa
 import sounddevice as sd
 import time
 import validators
-import einops
 from torchvision.transforms import ToTensor
 from einops import rearrange
 from infer_utils import get_infer_args
@@ -42,6 +41,7 @@ if __name__ == "__main__":
         sd.default.channels = 1
         sg.theme('DarkAmber')
 
+    #optional input type: wavfile
     '''
     elif args.wav_file is None:
         # list wav files given a folder

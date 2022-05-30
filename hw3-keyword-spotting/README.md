@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 
 ## Model Training
-The model will download automatically the drinks dataset and will proceed with the model training by running:
+The model will make use of the transformer based model on KWS and will proceed with the model training by running:
 ```
 python train.py
 ```

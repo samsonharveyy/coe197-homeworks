@@ -1,7 +1,7 @@
 import argparse
 
 #reference: https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws_demo.ipynb
-def get_args():
+def get_train_args():
     parser = argparse.ArgumentParser()
     # model training hyperparameters
     parser.add_argument('--batch-size', type=int, default=64, metavar='N',
@@ -10,6 +10,7 @@ def get_args():
                         help='number of epochs to train (default: 30)')
     parser.add_argument('--lr', type=float, default=0.001, metavar='LR',
                         help='learning rate (default: 0.001)')
+                        
     parser.add_argument('--depth', type=int, default=12, help='depth')
     parser.add_argument('--embed_dim', type=int, default=64, help='embedding dimension')
     parser.add_argument('--num_heads', type=int, default=4, help='num_heads')

@@ -4,10 +4,10 @@ from pytorch_lightning.callbacks import ModelCheckpoint
 from datasets import KWSDataModule
 from pytorch_lightning import Trainer
 from transformer_model import KWSTransformer
-from train_utils import get_args
+from train_utils import get_train_args
 
 if __name__ == "__main__":
-    args = get_args()
+    args = get_train_args()
     CLASSES = ['silence', 'unknown', 'backward', 'bed', 'bird', 'cat', 'dog', 'down', 'eight', 'five', 'follow',
                'forward', 'four', 'go', 'happy', 'house', 'learn', 'left', 'marvin', 'nine', 'no',
                'off', 'on', 'one', 'right', 'seven', 'sheila', 'six', 'stop', 'three',

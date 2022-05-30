@@ -133,6 +133,5 @@ class KWSDataModule(LightningDataModule):
         mels = torch.stack(mels)
         mels = rearrange(mels, 'b c h (p w) -> b p (c h w)', p=self.patch_num)
         labels = torch.stack(labels)
-        #labels = torch.LongTensor(labels)
    
         return mels, labels
